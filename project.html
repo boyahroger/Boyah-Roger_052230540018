@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Name</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background-image: url('your-image.jpg');
+            height: 60vh;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Restaurant Name</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero d-flex align-items-center justify-content-center text-white">
+        <h1>Welcome to Our Restaurant!</h1>
+    </div>
+
+    <!-- Menu Section -->
+    <section id="menu" class="container mt-5">
+        <h2>Our Menu</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="kebab.jpeg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">grilled meat</h5>
+                        <p class="card-text">Ghs5.00 for one stick</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="sausage.jpg" class="card-img-top" alt="Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">grilled sausages</h5>
+                        <p class="card-text">Ghs 7.00 for one</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="gizzard.jpg" class="card-img-top" alt="Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">gizzard</h5>
+                        <p class="card-text">Ghs5.00 for one</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="grill.jpg" class="card-img-top" alt="Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">grilled chicken</h5>
+                        <p class="card-text">Ghs80.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="chicken.jpg" class="card-img-top" alt="Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Goat Intestine</h5>
+                        <p class="card-text">Ghs10.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="sliced.jpg" class="card-img-top" alt="Dish 3">
+                    <div class="card-body">
+                        <h5 class="card-title">sliced sausage</h5>
+                        <p class="card-text">Ghs7.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="container mt-5">
+        <h2>About Us</h2>
+        <p>Our restaurant has been serving delicious food since 2006. We pride ourselves on using fresh, local ingredients.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mt-5">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2024 Francis Kebab Grills. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
